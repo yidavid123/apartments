@@ -1,0 +1,16 @@
+2018-05-21 12:42:36.302 PDT [8096] LOG:  listening on IPv6 address "::1", port 5432
+2018-05-21 12:42:36.302 PDT [8096] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2018-05-21 12:42:36.303 PDT [8096] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2018-05-21 12:42:36.341 PDT [8098] LOG:  database system was interrupted; last known up at 2018-05-16 20:49:15 PDT
+2018-05-21 12:42:36.569 PDT [8098] LOG:  invalid record length at 0/1857F30: wanted 24, got 0
+2018-05-21 12:42:36.569 PDT [8098] LOG:  invalid primary checkpoint record
+2018-05-21 12:42:36.569 PDT [8098] LOG:  using previous checkpoint record at 0/1857720
+2018-05-21 12:42:36.571 PDT [8098] LOG:  database system was not properly shut down; automatic recovery in progress
+2018-05-21 12:42:36.579 PDT [8098] LOG:  redo starts at 0/18576E8
+2018-05-21 12:42:36.579 PDT [8098] LOG:  invalid record length at 0/18577C8: wanted 24, got 0
+2018-05-21 12:42:36.579 PDT [8098] LOG:  redo done at 0/1857790
+2018-05-21 12:42:36.597 PDT [8096] LOG:  database system is ready to accept connections
+2018-05-21 12:44:16.432 PDT [8132] ERROR:  database "apartments_development" already exists
+2018-05-21 12:44:16.432 PDT [8132] STATEMENT:  CREATE DATABASE "apartments_development" ENCODING = 'unicode'
+2018-05-21 12:44:16.452 PDT [8133] ERROR:  database "apartments_test" already exists
+2018-05-21 12:44:16.452 PDT [8133] STATEMENT:  CREATE DATABASE "apartments_test" ENCODING = 'unicode'
